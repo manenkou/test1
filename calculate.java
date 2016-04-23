@@ -1,21 +1,13 @@
-public class calculate {
-	
-	public static void main(String[] arg) {
-		System.out.println("calculate...");
-		int a = Integer.valueOf(arg[0]);
-		int b = Integer.valueOf(arg[1]);
-		int summ = a + b;
-		int umn = a * b;
-		int dif = a - b;
-		int del = a / b;
-		int step1 = a * a;
-		int step2 = b * b;
+/**
+	Класс для выисления суммы двух чисел. Числа берутся из входящего массива.
+*/
 
-		System.out.println("Summ  " + summ);
-		System.out.println("Umnojenie   " + umn);
-		System.out.println("Vichetanie   " + dif);
-		System.out.println("Delenie   " + del);
-		System.out.println("Stepen1   " + step1);
-		System.out.println("Stepen2   " + step2);
+public class Calculate {
+	public static void main(String[] arg) {
+		System.out.println("Calculate...");
+		int first = Integer.valueOf(arg[0]);
+		int second = Integer.valueOf(arg[1]);
+		int sum = first + second;
+		System.out.println("Sum : " + sum);
 	}
 }
